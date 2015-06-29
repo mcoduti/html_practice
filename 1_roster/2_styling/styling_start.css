@@ -1,21 +1,45 @@
     .card {
-      border: 2px maroon solid;
+      border: 1px rgba(155, 17, 21, 1.0) solid;
       border-radius: 20px;
       margin-bottom: 10px;
+      box-shadow: 2px 2px 5px 0 gray;
   }
 
-* {
-	border: 1px green solid;
+.avatar-image {
+	border-radius:50%;
 }
+/** {
+	border: 1px green solid;
+}*/
 h1{
-	font-family: 'Lato';
+	font-family: 'Lato', sans-serif;
 	font-weight: 100;
-	font-size: 18px;
+	font-size: 24px;
 	color: rgba(155, 17, 21, 1.0);
 	padding-left: 10px;
 }
 small{
-	font-weight: 900;
+	font-weight: 400;
 	text-transform: uppercase;
 	color: rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	background-color: rgba(155, 17, 21, 1.0);
+	color: white;
+	font-size: 14pt;
+	padding-left: 10px;
+	text-transform: uppercase;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 10px;
+}
+body {
+	font-family: 'Merrivweather', serif;
+	font-size: 18px;
+	letter-spacing: 0px;
 }
