@@ -18,9 +18,11 @@ Note that I've included the background image for the page in this folder, "grey.
 Write your CSS rules below.
 
 */
+/*
 * {
 	border: 1px green solid;
 }
+*/
 body {
 background-image: url('polka.png');
 }
@@ -31,7 +33,7 @@ td {
 
 table{
 	border-spacing:0px;
-
+  border: 1px purple solid;
 	}
 	
 .board {

@@ -1,3 +1,7 @@
+*/*{
+  border:1px green solid;
+}
+*/
 .canvas {
   width: 100%;
 }
