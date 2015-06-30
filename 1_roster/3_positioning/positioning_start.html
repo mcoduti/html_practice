@@ -30,7 +30,16 @@
       padding-left: 10px;
       text-transform: uppercase;
     }
-
+* {
+  border: 1px green solid;
+}
+	table {
+		width: 100%;
+	}
+	
+	td {
+		vertical-align: top;
+	}
     h1 small {
       color: rgba(0, 0, 0, 0.6);
       font-weight: 400;
@@ -54,9 +63,16 @@
   </style>
 </head>
 <body>
+  <table>
+  <tr colspan="3">
   <img src="booth_logo.jpg">
+  </tr>
+  <tr colspan="3">
   <h1>BUS36110 <small>Application Development Spring 2015</small></h1>
+	</tr>
 
+  <tr>
+  <td>
   <div class="card">
     <h2>Instructors</h2>
 
@@ -75,7 +91,8 @@
       </li>
     </ul>
   </div>
-
+  </td>
+<td>
   <div class="card">
     <h2>Students</h2>
 
@@ -102,8 +119,9 @@
       <li>Dixie Bradtke</li>
     </ul>
   </div>
+</td>
 
-
+<td>
   <div class="card">
     <h2>Resources</h2>
 
@@ -113,5 +131,8 @@
       <li><a href="http://appdev-summer15.github.io/syllabus/" target="_blank">Course syllabus</a></li>
     </ul>
   </div>
+  </td>
+  </tr>
+  </table>
 </body>
 </html>
