@@ -1,11 +1,16 @@
 body {
   background-image: url('grey.png');
 }
+* {
+	border: 1px green solid;
+}
 
 .board {
   border: thick solid #1D7373;
   margin: 36px auto;
 }
+
+
 
 .square {
   color: #FF9640;

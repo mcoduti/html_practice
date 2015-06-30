@@ -18,3 +18,47 @@ Note that I've included the background image for the page in this folder, "grey.
 Write your CSS rules below.
 
 */
+* {
+	border: 1px green solid;
+}
+body {
+background-image: url('polka.png');
+}
+
+td {
+	padding: 0px;
+	}
+
+table{
+	border-spacing:0px;
+
+	}
+	
+.board {
+	margin: 36px auto;
+}
+
+.rank {
+}
+
+.square{
+height: 76px;
+width: 76px;
+text-align: center;
+font-size: 48px;
+background-color: white;
+color: orange;
+  text-shadow: 1px 1px 2px #333;
+}
+
+.dark_square {
+ background: #009999; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #009999 0%, #1d7373 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#009999), color-stop(100%,#1d7373)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #009999 0%,#1d7373 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #009999 0%,#1d7373 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #009999 0%,#1d7373 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #009999 0%,#1d7373 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009999', endColorstr='#1d7373',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
